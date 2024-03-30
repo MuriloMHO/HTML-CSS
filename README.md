@@ -1,4 +1,4 @@
 # HTML-CSS
- Curso de HTML 5 e CSS 3
+ Curso de "HTML 5" e "CSS 3".
 
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
+Este é o meu repositório de exercícios e desafios do curso de "HTML 5" E "CSS 3" do canal Curso em vídeo.
