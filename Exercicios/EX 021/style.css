@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to top, blueviolet, rgb(211, 4, 211), rgb(179, 3, 179), purple);
+    background-attachment: fixed;
+    margin: 0;
+}
+.fundo {
+    background-color: lightgray;
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 5px 5px 15px gray;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 1px;
+}
+p > a {
+    text-decoration: none;
+    margin: 40px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: gray;
+    color: black;
+    padding: 5px 40px;
+    box-shadow: 5px 5px 15px gray;
+}
+p > a:hover {
+    color: blue;
+}
+#princ {
+    text-align: center;
+}
+footer > p {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.contact {
+    text-decoration: none;
+    color: white;
+}
+.contact:hover {
+    color: red;
+}
+#links {
+    text-align: center;
+}

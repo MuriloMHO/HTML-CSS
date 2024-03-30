@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+em HTML é id    = em CSS é # (somemte 1 por documento .hmtl)
+em HTMl é class = em CSS é . (varios por documento .html)
+*/
+main {
+   background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+}
+body {
+    background-image: linear-gradient(to top, blueviolet, purple);;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+h1#principal {
+    color: darkgreen;
+    text-align: center;
+    font-size: 3em;
+}
+h1 {
+    color: darkgreen;
+}
+h2 {
+    color: darkgreen;
+}
+.basico {
+    color: green;
+    font-weight: bold;
+}
+.intermediario {
+    color: yellow;
+}
+.avancado {
+    color: red;
+}
+.destaque {
+    background-color: aqua;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
