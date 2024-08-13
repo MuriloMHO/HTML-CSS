@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opçaõ 1</a></li>
+                <li><a href="#">Opçaõ 2</a></li>
+                <li><a href="#">Opçaõ 3</a></li>
+                <li><a href="#">Opçaõ 4</a></li>
+                <li><a href="#">Opçaõ 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+
+        <article>
+            <h2>
+                Testando Media Queries
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eius accusantium sunt nostrum, autem ipsa. Doloremque praesentium fuga labore aliquam omnis quam fugiat quae illum officiis, exercitationem, nostrum repudiandae modi.
+                Voluptas repellat odio vitae aperiam quisquam fugit ducimus, sapiente eos dolore laboriosam, blanditiis ullam, a ipsam possimus eius! Beatae facilis a quas voluptatum fugit corporis maiores maxime assumenda numquam nulla.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe aut animi modi possimus vero, pariatur in incidunt obcaecati dicta assumenda, libero nisi, est laudantium. Repellendus fugit tenetur officiis assumenda quis.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sunt facere ducimus cupiditate quisquam voluptatibus, enim iusto commodi quod perferendis sint fugit repudiandae error. Nesciunt perferendis possimus voluptate incidunt doloribus?
+                Labore, commodi nostrum? Iste nisi minus debitis itaque, dolores ad in quos obcaecati perspiciatis et perferendis, alias enim laboriosam architecto. Optio perferendis vero, minus nisi iure sunt rerum veniam nemo.
+                Distinctio labore consequatur nihil perferendis debitis aperiam eligendi veniam vel nemo. Voluptatibus at quisquam eius enim tempora officia. Optio, recusandae. Autem ducimus praesentium atque iure! Suscipit aliquam repudiandae iusto placeat?
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit ratione totam a, id temporibus alias voluptate maiores cupiditate officia eligendi aperiam ex quo laudantium? Et at illum doloribus sint rerum!
+            </p>
+        </article>
+
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+    
+</body>
+</html>
